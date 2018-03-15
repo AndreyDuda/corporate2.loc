@@ -8,7 +8,7 @@
 
 namespace Corp\Repositories;
 
-use Config;
+
 
 abstract class Repository
 {
