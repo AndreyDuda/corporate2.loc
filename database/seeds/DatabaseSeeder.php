@@ -109,37 +109,37 @@ class DatabaseSeeder extends Seeder
             [
                 [
                     'title'  => 'Главная',
-                    'path'   => 'http://corporate.loc',
+                    'path'   => 'http://corporate2.loc',
                     'parent' => 0
                 ],
                 [
                     'title'  => 'Блог',
-                    'path'   => 'http://corporate.loc/articles',
+                    'path'   => 'http://corporate2.loc/articles',
                     'parent' => 0
                 ],
                 [
                     'title'  => 'Компьютеры',
-                    'path'   => 'http://corporate.loc/articles/cat/computers',
-                    'parent' => 3
+                    'path'   => 'http://corporate2.loc/articles/cat/computers',
+                    'parent' => 2
                 ],
                 [
                     'title'  => 'Интересное',
-                    'path'   => 'http://corporate.loc/articles/cat/iteresting',
-                    'parent' => 3
+                    'path'   => 'http://corporate2.loc/articles/cat/iteresting',
+                    'parent' => 2
                 ],
                 [
                     'title'  => 'Советы',
-                    'path'   => 'http://corporate.loc/articles/cat/soveti',
-                    'parent' => 3
+                    'path'   => 'http://corporate2.loc/articles/cat/soveti',
+                    'parent' => 2
                 ],
                 [
                     'title'  => 'Портфолио',
-                    'path'   => 'http://corporate.loc/portfolios',
+                    'path'   => 'http://corporate2.loc/portfolios',
                     'parent' => 0
                 ],
                 [
                     'title'  => 'Контакты',
-                    'path'   => 'http://corporate.loc/contacts',
+                    'path'   => 'http://corporate2.loc/contacts',
                     'parent' => 0
                 ]
             ]);
